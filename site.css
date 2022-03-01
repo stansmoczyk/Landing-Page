@@ -8,6 +8,10 @@
 .site-title, .header-links, .title-section, footer {
     color: white;
     background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .site-title {
@@ -35,18 +39,15 @@
     color: #F9FAF8;
 }
 
-footer {
-    padding: 30px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-
 
 button {
     color: white;
     background-color: #3882F6;
     border-radius: 8px;
+}
+
+.title-section, .title-subtext, .title-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
